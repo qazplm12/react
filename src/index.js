@@ -10,18 +10,22 @@ import App8 from "./App8";
 import App9 from "./App9";
 import App10 from "./App10";
 import App11 from "./App11";
+import App12 from "./App12";
+import App13 from "./App13";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/*<App5 />*/}
-    {/*<App6 />*/}
-    {/*<App7 />*/}
-    {/*<App8 />*/}
-    {/*<App9 theme={'primary'} signedInUser={'아이유'}/>*/}
-    {/*<App10 theme={'primary'} signedInUser={'아이유'} />*/}
-    <App11 />
-  </React.StrictMode>
+    <React.StrictMode>
+        {/*<App5 />*/}
+        {/*<App6 />*/}
+        {/*<App7 />*/}
+        {/*<App8 />*/}
+        {/*<App9 theme={'primary'} signedInUser={'아이유'}/>*/}
+        {/*<App10 theme={'primary'} signedInUser={'아이유'} />*/}
+        {/*<App11 />*/}
+        {/*<App12/>*/}
+        <App13/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
